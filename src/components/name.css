@@ -1,0 +1,64 @@
+.btn{
+    width: 380px;
+    margin-top: 1rem;
+    color: #24A0ED;
+    font-weight: 400;
+}
+/* button:hover{
+    cursor: pointer;
+    color: #1377b5;
+} */
+
+.Login{
+    
+
+    margin-left: 26rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 35.59;
+
+    
+}
+.cont{
+    margin: auto;
+    width: 380px;
+    height: 35.59px;
+}
+
+.header-login{
+    font-weight: 500;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unregistered{
+    margin-top: 1rem;
+    font-size: smaller;
+}
+
+.deets{
+    font-size: small;
+    font-weight: 500;
+
+}
+.terms{
+    /* margin-top: 1rem; */
+}
+span{
+    font-size: small;
+    font-weight: 400;
+}
+
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
